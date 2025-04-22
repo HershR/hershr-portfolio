@@ -1,1 +1,3 @@
-# hershr-portfolio
+# Portfolio
+
+## Created using React and TailwindCSS
