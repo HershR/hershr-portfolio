@@ -45,7 +45,7 @@ export function About() {
       description: [
         "Designed and developed two video game prototypes using the Unity Game Engine to educate youth on environmental sustainability, incorporating interactive gameplay to promote community activism.",
         "Led the design and development of core game systems and new features, ensuring alignment with educational objectives.",
-        "Facilitated regular SCRUM meetings to track progress, address blockers, and maintain Agile workflows, lever- aging Jira for task management and sprint planning.",
+        "Facilitated regular SCRUM meetings to track progress, address blockers, and maintain Agile workflows, leveraging Jira for task management and sprint planning.",
       ],
     },
   ];
@@ -56,7 +56,7 @@ export function About() {
     >
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
-        <div className="glass justify-center items-center rounded-xl p-8 border-primary/10 border hover:-tranlate-y-1 transition-all">
+        <div className="glass justify-center items-center rounded-xl p-8 border-primary/10 border hover:-translate-y-1 transition-all">
           <div className="justify-center items-center max-w-3xl mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-center items-center">
               <img
@@ -73,7 +73,7 @@ export function About() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-xl p-6 hover:-tranlate-y-1  transition-all">
+            <div className="rounded-xl p-6 ">
               <h3 className="text-xl font-bold mb-4">Languages</h3>
               <div className="flex flex-wrap gap-2">
                 {languages.map((tool) => (
@@ -86,7 +86,7 @@ export function About() {
                 ))}
               </div>
             </div>
-            <div className="rounded-xl p-6 hover:-tranlate-y-1  transition-all">
+            <div className="rounded-xl p-6 ">
               <h3 className="text-xl font-bold mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendTools.map((tool) => (
@@ -100,7 +100,7 @@ export function About() {
               </div>
             </div>
 
-            <div className="rounded-xl p-6 hover:-tranlate-y-1  transition-all">
+            <div className="rounded-xl p-6 ">
               <h3 className="text-xl font-bold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendTools.map((tool) => (
@@ -113,7 +113,7 @@ export function About() {
                 ))}
               </div>
             </div>
-            <div className="rounded-xl p-6 hover:-tranlate-y-1  transition-all">
+            <div className="rounded-xl p-6 ">
               <h3 className="text-xl font-bold mb-4">Game Dev</h3>
               <div className="flex flex-wrap gap-2">
                 {gameTools.map((tool) => (

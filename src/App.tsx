@@ -1,7 +1,7 @@
 import "./App.css";
 import { Header } from "./components/Header";
 import { About } from "./components/sections/About";
-import { Projects } from "./components/sections/Projects";
+import { Projects } from "./components/sections/projects";
 import { Contact } from "./components/sections/Contact";
 import LoadingScreen from "./components/LoadingScreen";
 import { useState } from "react";
@@ -25,8 +25,8 @@ function App() {
         <main className="px-4 md:px-12 lg:px-24 py-8 space-y-20">
           <Home />
           <About />
+          <Projects />
           {/* 
-          <Projects username="HershR" />
           <Contact /> */}
         </main>
       </div>
