@@ -13,21 +13,18 @@ function Home() {
           <span>I am Hersh Rudrawal</span>
         </h1>
         <p className="text-lg md:text-xl text-accent mb-8 max-w-lg mx-auto text-left">
-          Junior Software Developer with experience in full-stack, mobile app,
-          and game development. Passionate about creating impactful solutions to
-          address real-world problems and contributing to innovative software
-          engineering projects.
+          I am Junior Software Developer based out in California, USA.
         </p>
         <div className="flex justify-center items-center space-x-4">
           <a
             href="#projects"
-            className="bg-accent text-secondary py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-tranlate-y-1 hover:shadow-lg"
+            className="bg-accent text-secondary py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-lg"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="bg-accent text-secondary py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-tranlate-y-1 hover:shadow-lg"
+            className="border border-accent bg-secondary/50 text-primary py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-lg"
             //   onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
           >
             Contact Me

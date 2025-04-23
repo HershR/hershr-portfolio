@@ -24,7 +24,8 @@ function App() {
         {/* <NabBar /> */}
         <main className="px-4 md:px-12 lg:px-24 py-8 space-y-20">
           <Home />
-          {/* <About />
+          <About />
+          {/* 
           <Projects username="HershR" />
           <Contact /> */}
         </main>
