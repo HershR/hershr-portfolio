@@ -6,6 +6,7 @@
   --secondary: hsl(231, 47%, 97%);
   --background: hsl(0, 0%, 100%);
   --accent: hsl(231, 17%, 16%);
+  --foregound: hsl(212, 7%, 42%);
 }
 
 .dark {
@@ -13,12 +14,14 @@
   --secondary: hsl(227, 18%, 20%);
   --background: hsl(231, 17%, 16%);
   --accent: hsl(212, 7%, 42%);
+  --foregound: hsl(0, 0%, 100%);
 }
 @theme inline {
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-background: var(--background);
   --color-accent: var(--accent);
+  --color-foregound: var(--foregound);
 }
 
 /* @theme {
@@ -41,6 +44,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  color: var(--color-primary);
+  background-color: var(--color-background);
 }
 
 @layer utilities {
