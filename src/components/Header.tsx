@@ -24,6 +24,11 @@ export function Header({ menuOpen, setMenuOpen }: HeaderProps) {
         </div>
         <ul className="hidden md:flex gap-6">
           <li>
+            <a href="#home" className="hover:underline">
+              Home
+            </a>
+          </li>
+          <li>
             <a href="#about" className="hover:underline">
               About
             </a>

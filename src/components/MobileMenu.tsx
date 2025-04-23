@@ -22,6 +22,15 @@ export function MobileMenu({ menuOpen, setMenuOpen }: MobileHeaderProps) {
       </button>
       <nav className="header-menu flex flex-col items-center space-y-6">
         <a
+          href="#home"
+          className={`text-2xl text-primary font-semibold my-4 transform transition-transform duration-300 ${
+            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          } hover:text-foregound`}
+          onClick={() => setMenuOpen(false)}
+        >
+          Home
+        </a>
+        <a
           href="#about"
           className={`text-2xl text-primary font-semibold my-4 transform transition-transform duration-300 ${
             menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"

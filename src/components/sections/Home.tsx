@@ -1,5 +1,5 @@
 import React from "react";
-
+import RevealOnScroll from "../RevealOnScroll";
 function Home() {
   return (
     <section

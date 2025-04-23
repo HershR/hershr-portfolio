@@ -7,6 +7,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import { useState } from "react";
 import { MobileMenu } from "./components/MobileMenu";
 import Home from "./components/sections/Home";
+import RevealOnScroll from "./components/RevealOnScroll";
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,9 +24,15 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         {/* <NabBar /> */}
         <main className="px-4 md:px-12 lg:px-24 py-8 space-y-20">
-          <Home />
-          <About />
-          <Projects />
+          <RevealOnScroll>
+            <Home />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <About />
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <Projects />
+          </RevealOnScroll>
           {/* 
           <Contact /> */}
         </main>
