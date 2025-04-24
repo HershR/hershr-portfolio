@@ -57,15 +57,15 @@ export function About() {
     >
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
-        <div className="glass justify-center items-center rounded-xl p-8 border-primary/10 border hover:-translate-y-1 transition-all">
+        <div className="glass justify-center items-center rounded-xl p-8 border-primary/10 border transition-all">
           <div className="justify-center items-center max-w-3xl mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-center items-center">
               <img
                 src="https://avatars.githubusercontent.com/u/113292983?v=4"
                 alt="HershR"
-                className="w-32 h-32 rounded-full mx-auto"
+                className="w-32 h-32 rounded-md mx-auto"
               />
-              <p className="text-primary text-center md:text-left ml-4 max-w-xl mx-auto">
+              <p className="text-primary text-center md:text-left mt-4 md:ml-4 max-w-xl mx-auto">
                 Junior Software Developer with experience in full-stack, mobile
                 app, and game development. Passionate about creating
                 applications that address real-world problems and contributing
@@ -110,7 +110,7 @@ export function About() {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-6 mt-8">
-          <div className="p-6 rounded-xl border-primary/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-primary/10 border transition-all">
             <h3 className="text-xl font-bold mb-4">Education</h3>
             <ul className="list-disc text-primary space-y-2 pl-4">
               <li>
@@ -126,7 +126,7 @@ export function About() {
               </li>
             </ul>
           </div>
-          <div className="p-6 rounded-xl border-primary/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-primary/10 border transition-all">
             <h3 className="text-xl font-bold mb-4">Work Exerience</h3>
             <div className="space-y-4 text-primary">
               {workExperience.map((x) => (
