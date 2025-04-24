@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface WorkExperienceProps {
   title: string;
   company: string;
@@ -24,7 +22,7 @@ export default function WorkExperience({
       </h4>
       <p>
         {description && (
-          <ul className="list-disc text-accent pl-4">
+          <ul className="list-disc text-primary pl-4">
             {description.map((str, index) => (
               <li key={index}>{str}</li>
             ))}

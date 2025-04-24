@@ -64,7 +64,7 @@ export function About() {
                 alt="HershR"
                 className="w-32 h-32 rounded-full mx-auto"
               />
-              <p className="text-accent text-center md:text-left ml-4 max-w-xl mx-auto">
+              <p className="text-primary text-center md:text-left ml-4 max-w-xl mx-auto">
                 Junior Software Developer with experience in full-stack, mobile
                 app, and game development. Passionate about creating
                 applications that address real-world problems and contributing
@@ -131,7 +131,7 @@ export function About() {
         <div className="grid grid-cols-1 gap-6 mt-8">
           <div className="p-6 rounded-xl border-primary/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">Education</h3>
-            <ul className="list-disc text-accent space-y-2 pl-4">
+            <ul className="list-disc text-primary space-y-2 pl-4">
               <li>
                 <strong>B.S. in Computer Science</strong> - University of
                 California Santa Cruz (2020-2024)
@@ -147,7 +147,7 @@ export function About() {
           </div>
           <div className="p-6 rounded-xl border-primary/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">Work Exerience</h3>
-            <div className="space-y-4 text-accent">
+            <div className="space-y-4 text-primary">
               {workExperience.map((x) => (
                 <WorkExperience key={x.company} {...x} />
               ))}
