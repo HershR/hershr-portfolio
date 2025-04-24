@@ -1,3 +1,4 @@
+import ToolChip from "../ToolChip";
 import WorkExperience, { WorkExperienceProps } from "../WorkExperience";
 
 export function About() {
@@ -77,12 +78,7 @@ export function About() {
               <h3 className="text-xl font-bold mb-4">Languages</h3>
               <div className="flex flex-wrap gap-2">
                 {languages.map((tool) => (
-                  <span
-                    key={tool}
-                    className="bg-secondary text-primary px-3 py-1 rounded-full text-sm hover:shadow-sm transition"
-                  >
-                    {tool}
-                  </span>
+                  <ToolChip key={tool} tool={tool} />
                 ))}
               </div>
             </div>
@@ -90,12 +86,7 @@ export function About() {
               <h3 className="text-xl font-bold mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendTools.map((tool) => (
-                  <span
-                    key={tool}
-                    className="bg-secondary text-primary px-3 py-1 rounded-full text-sm hover:shadow-sm transition"
-                  >
-                    {tool}
-                  </span>
+                  <ToolChip key={tool} tool={tool} />
                 ))}
               </div>
             </div>
@@ -104,12 +95,7 @@ export function About() {
               <h3 className="text-xl font-bold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendTools.map((tool) => (
-                  <span
-                    key={tool}
-                    className="bg-secondary text-primary px-3 py-1 rounded-full text-sm hover:shadow-sm transition"
-                  >
-                    {tool}
-                  </span>
+                  <ToolChip key={tool} tool={tool} />
                 ))}
               </div>
             </div>
@@ -117,12 +103,7 @@ export function About() {
               <h3 className="text-xl font-bold mb-4">Game Dev</h3>
               <div className="flex flex-wrap gap-2">
                 {gameTools.map((tool) => (
-                  <span
-                    key={tool}
-                    className="bg-secondary text-primary px-3 py-1 rounded-full text-sm hover:shadow-sm transition"
-                  >
-                    {tool}
-                  </span>
+                  <ToolChip key={tool} tool={tool} />
                 ))}
               </div>
             </div>

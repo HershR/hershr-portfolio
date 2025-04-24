@@ -1,4 +1,5 @@
 import projects from "../../data/projects";
+import ToolChip from "../ToolChip";
 
 export function Projects() {
   return (
@@ -14,14 +15,9 @@ export function Projects() {
             <p className="text-primary mb-4">
               {project.description || "No description provided."}
             </p>
-            <div>
+            <div className="flex flex-wrap gap-2">
               {project.tools?.map((tool) => (
-                <span
-                  key={tool}
-                  className="bg-secondary text-primary px-3 py-1 rounded-full text-sm hover:shadow-sm transition"
-                >
-                  {tool}
-                </span>
+                <ToolChip key={tool} tool={tool} />
               ))}
             </div>
             {project.links.map((x) => (

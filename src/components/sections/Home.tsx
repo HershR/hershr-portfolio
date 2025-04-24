@@ -23,7 +23,6 @@ function Home() {
           <a
             href="#contact"
             className="border border-accent bg-secondary/50 text-primary py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-lg"
-            //   onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
           >
             Contact Me
           </a>
