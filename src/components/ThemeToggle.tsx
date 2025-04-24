@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillMoon, AiFillSun } from "react-icons/ai";
 
 export default function ThemeToggle() {
