@@ -1,3 +1,5 @@
+import ThemeToggle from "./ThemeToggle";
+
 interface MobileHeaderProps {
   menuOpen: boolean;
   setMenuOpen: (open: boolean) => void;
@@ -6,7 +8,7 @@ interface MobileHeaderProps {
 export function MobileMenu({ menuOpen, setMenuOpen }: MobileHeaderProps) {
   return (
     <div
-      className={`fixed top-0 left-0 w-full bg-secondary z-60 flex flex-col 
+      className={`fixed top-0 left-0 w-full bg-background z-60 flex flex-col 
         justify-center items-center transition-all duration-300 ease-in-out ${
           menuOpen
             ? "h-screen opacity-100 pointer-events-auto"
@@ -57,6 +59,7 @@ export function MobileMenu({ menuOpen, setMenuOpen }: MobileHeaderProps) {
         >
           Contact
         </a>
+        <ThemeToggle />
       </nav>
     </div>
   );
