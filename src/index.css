@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:is(.dark *));
 
 :root {
   --primary: hsl(227, 18%, 20%);
@@ -13,8 +13,8 @@
   --primary: hsl(231, 47%, 97%);
   --secondary: hsl(227, 18%, 20%);
   --background: hsl(231, 17%, 16%);
-  --accent: hsl(212, 7%, 42%);
-  --foregound: hsl(0, 0%, 100%);
+  --accent: hsl(0, 0%, 100%);
+  --foregound: hsl(212, 7%, 42%);
 }
 @theme inline {
   --color-primary: var(--primary);
