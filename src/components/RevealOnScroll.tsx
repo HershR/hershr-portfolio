@@ -1,6 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 
-export default function RevealOnScroll({ children }) {
+interface Props {
+  children?: ReactNode;
+}
+
+export default function RevealOnScroll({ children }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const observer = new IntersectionObserver(
