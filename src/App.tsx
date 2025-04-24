@@ -1,7 +1,7 @@
 import "./App.css";
 import { Header } from "./components/Header";
 import { About } from "./components/sections/About";
-import { Projects } from "./components/sections/projects";
+import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
 import LoadingScreen from "./components/LoadingScreen";
 import { useState } from "react";
@@ -33,8 +33,8 @@ function App() {
           <RevealOnScroll>
             <Projects />
           </RevealOnScroll>
-          {/* 
-          <Contact /> */}
+
+          <Contact />
         </main>
       </div>
     </>
