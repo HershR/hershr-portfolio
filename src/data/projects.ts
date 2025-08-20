@@ -12,17 +12,6 @@ export default [
     tools: ["Unity", "C#", "Blender"],
   },
   {
-    name: "Detective Dollar",
-    description: "Expense Tracking app made in Expo",
-    links: [
-      {
-        label: "GitHub",
-        url: "https://github.com/RazrSlyr/DetectiveDollar",
-      },
-    ],
-    tools: ["Expo", "React Native", "JavaScript"],
-  },
-  {
     name: "Rep Report",
     description: "Workout Tracking app made in Expo",
     links: [
@@ -43,6 +32,17 @@ export default [
       },
     ],
     tools: ["Python", "Flask", "Postgres", "Docker"],
+  },
+  {
+    name: "Detective Dollar",
+    description: "Expense Tracking app made in Expo",
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/RazrSlyr/DetectiveDollar",
+      },
+    ],
+    tools: ["Expo", "React Native", "JavaScript"],
   },
   {
     name: "Self Driving Sim",

@@ -8,7 +8,7 @@ import { useState } from "react";
 import { MobileMenu } from "./components/MobileMenu";
 import Home from "./components/sections/Home";
 import RevealOnScroll from "./components/RevealOnScroll";
-import YouTube from "./components/sections/YouTube";
+import YouTubeSection from "./components/sections/YouTube";
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -41,7 +41,7 @@ function App() {
           </RevealOnScroll>
 
           <RevealOnScroll>
-            <YouTube />
+            <YouTubeSection />
           </RevealOnScroll>
 
           <Contact />
