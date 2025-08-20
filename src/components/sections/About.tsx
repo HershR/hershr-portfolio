@@ -1,6 +1,5 @@
 import ToolChip from "../ToolChip";
 import WorkExperience, { WorkExperienceProps } from "../WorkExperience";
-
 export function About() {
   const languages = [
     "Python",
@@ -61,7 +60,7 @@ export function About() {
           <div className="justify-center items-center max-w-3xl mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-center items-center">
               <img
-                src="https://avatars.githubusercontent.com/u/113292983?v=4"
+                src="havc.dev.profile.png"
                 alt="HershR"
                 className="w-32 h-32 rounded-md mx-auto"
               />

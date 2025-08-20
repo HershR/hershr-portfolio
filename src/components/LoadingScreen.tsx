@@ -6,7 +6,7 @@ interface LoadingScreenProps {
 
 export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
   const [text, setText] = React.useState("Hello World");
-  const fullText = "<Welcome />";
+  const fullText = "<Welcome/>";
 
   useEffect(() => {
     let index = 0;

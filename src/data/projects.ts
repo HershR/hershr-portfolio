@@ -23,6 +23,17 @@ export default [
     tools: ["Expo", "React Native", "JavaScript"],
   },
   {
+    name: "Rep Report",
+    description: "Workout Tracking app made in Expo",
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/HershR/rep-report",
+      },
+    ],
+    tools: ["Expo", "React Native", "TypeScript", "Tailwind CSS"],
+  },
+  {
     name: "Weather Server",
     description: "Backend Flask server used to collect weather data for cities",
     links: [
